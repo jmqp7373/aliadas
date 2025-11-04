@@ -3,7 +3,7 @@
 Este directorio debe contener las siguientes imágenes:
 
 ## Logos principales:
-- **logo-aliadas.png** - Logo principal de Aliadas (dimensiones recomendadas: 200x60px)
+- **logo/logo_horizontal.png** - Logo horizontal de Aliadas (dimensiones recomendadas: 250x50px)
 - **logo-valora.png** - Logo de Valora.vip (dimensiones recomendadas: 150x150px)
 
 ## Iconos de estudios (en carpeta iconos-estudios/):
