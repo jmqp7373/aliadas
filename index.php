@@ -41,7 +41,8 @@
     <div class="container">
         <h1>🎥 Aliadas Webcam</h1>
         <p>Bienvenidos a nuestro sitio web oficial</p>
-        <p>Sitio desplegado exitosamente en producción</p>
+        <p>✅ Sitio desplegado exitosamente en producción</p>
+        <p>🚀 Despliegue automático con GitHub Actions</p>
         <div class="date">
             <?php echo "Última actualización: " . date("d/m/Y H:i:s"); ?>
         </div>
