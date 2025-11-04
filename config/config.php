@@ -7,10 +7,11 @@
  */
 
 // Datos de conexión a la base de datos
+// IMPORTANTE: Actualizar estos datos con los reales de tu cPanel GoDaddy
 define('DB_HOST', 'localhost'); // Servidor de base de datos
-define('DB_NAME', 'aliadaswebcam_db'); // Nombre de la base de datos
-define('DB_USER', 'aliadaswebcam_user'); // Usuario de la base de datos
-define('DB_PASS', ''); // Contraseña de la base de datos
+define('DB_NAME', 'aliadaswebcam_db'); // CAMBIAR: Nombre real de la DB en cPanel
+define('DB_USER', 'aliadaswebcam_user'); // CAMBIAR: Usuario real de la DB en cPanel  
+define('DB_PASS', 'Reylondres7373.'); // CAMBIAR: Contraseña real del usuario DB
 define('DB_CHARSET', 'utf8mb4'); // Codificación de caracteres
 
 // Configuración adicional

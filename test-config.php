@@ -115,6 +115,18 @@
                         
                     } catch (Exception $e) {
                         echo "<div class='test-item'><span class='error'>❌</span> Error de conexión: " . htmlspecialchars($e->getMessage()) . "</div>";
+                        
+                        // Mostrar ayuda específica basada en el error
+                        $errorMsg = $e->getMessage();
+                        if (strpos($errorMsg, 'Access denied') !== false) {
+                            echo "<div class='test-item'><span class='info'>💡 Solución: Verifica usuario y contraseña en cPanel. El usuario puede tener un prefijo.</span></div>";
+                        } elseif (strpos($errorMsg, 'Unknown database') !== false) {
+                            echo "<div class='test-item'><span class='info'>💡 Solución: Crea la base de datos en cPanel. El nombre puede tener un prefijo.</span></div>";
+                        } elseif (strpos($errorMsg, 'Connection refused') !== false) {
+                            echo "<div class='test-item'><span class='info'>💡 Solución: Verifica que MySQL esté activo o usa el host correcto.</span></div>";
+                        }
+                        
+                        echo "<div class='test-item'><span class='info'>📋 Ver instrucciones completas en: <a href='INSTRUCCIONES_DB.md' style='color: #ADD8E6;'>INSTRUCCIONES_DB.md</a></span></div>";
                     }
                     
                 } else {
