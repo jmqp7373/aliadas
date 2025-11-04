@@ -11,7 +11,7 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <img src="assets/images/logo-aliadas.png" alt="Logo Aliadas" class="logo-img">
+                    <img src="assets/images/logo/logo_horizontal.png" alt="Logo Aliadas" class="logo-img">
                 </div>
                 <nav class="nav">
                     <ul class="nav-menu">
