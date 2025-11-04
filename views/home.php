@@ -93,7 +93,7 @@
             <h2 class="section-title">Contáctanos</h2>
             <p class="contact-text">¿Tienes preguntas? Estamos aquí para ayudarte a dar el siguiente paso en tu carrera.</p>
             <div class="contact-info">
-                <p>📧 Email: contacto@aliadas.com.co</p>
+                <p>📧 Email: admin@aliadaswebcam.com.co</p>
                 <p>📱 WhatsApp: +57 XXX XXX XXXX</p>
             </div>
         </div>
