@@ -97,7 +97,7 @@
             <p class="contact-text">¿Tienes preguntas? Estamos aquí para ayudarte a dar el siguiente paso en tu carrera.</p>
             <div class="contact-info">
                 <p>📧 Email: admin@aliadaswebcam.com.co</p>
-                <p>📱 WhatsApp: +57 XXX XXX XXXX</p>
+                <p>📱 WhatsApp: +57 310 395 1529</p>
             </div>
         </div>
     </section>

@@ -2,7 +2,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-legal">
-                    <p>Aliadas es un proyecto de <strong>Digital Wise Company (<a href="https://diwico.com" target="_blank" class="footer-link">Diwico.com</a>)</strong></p>
+                    <p>Aliadas es un proyecto de <strong>Digital Wise Company s.a.s. (<a href="https://diwico.com" target="_blank" class="footer-link">Diwico.com</a>)</strong></p>
                 </div>
                 <div class="footer-social">
                     <a href="#" class="social-link" aria-label="Facebook">
