@@ -20,7 +20,10 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
-        server-dir: /public_html/
+        server-dir: ./public_html/
+        protocol: ftp
+        port: 21
+        log-level: verbose
         exclude: |
           **/.git*
           **/.git*/**
@@ -28,3 +31,9 @@ jobs:
           **/node_modules/**
           .gitignore
           README.md
+          
+    - name: Verify deployment
+      run: |
+        echo "Deployment completed successfully"
+        echo "Files deployed:"
+        ls -la

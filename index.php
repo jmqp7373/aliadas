@@ -44,7 +44,9 @@
         <p>✅ Sitio desplegado exitosamente en producción</p>
         <p>🚀 Despliegue automático con GitHub Actions</p>
         <div class="date">
-            <?php echo "Última actualización: " . date("d/m/Y H:i:s"); ?>
+            <?php echo "🕒 Última actualización: " . date("d/m/Y H:i:s"); ?>
+            <br>
+            <small>✅ Despliegue GitHub Actions funcionando</small>
         </div>
     </div>
 </body>
