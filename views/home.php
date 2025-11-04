@@ -18,10 +18,10 @@
                 <!-- Estudio Esmeralda -->
                 <div class="studio-card">
                     <div class="studio-icon">
-                        <img src="assets/images/iconos-estudios/esmeralda.png" alt="Estudio Esmeralda" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <img src="assets/images/iconos-estudios/esmeralda.png" alt="Estudio Esmeralda Webcam" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="studio-icon-placeholder" style="display:none;">💎</div>
                     </div>
-                    <h3 class="studio-name">Esmeralda</h3>
+                    <h3 class="studio-name"><a href="https://esmeraldawebcam.com.co" target="_blank" class="studio-link">Esmeralda Webcam</a></h3>
                     <p class="studio-description">Equipamiento premium con tecnología de última generación y espacios diseñados para tu comodidad.</p>
                     <ul class="studio-features">
                         <li>✓ Equipos de alta gama</li>
@@ -33,10 +33,10 @@
                 <!-- Estudio Zafiro -->
                 <div class="studio-card">
                     <div class="studio-icon">
-                        <img src="assets/images/iconos-estudios/zafiro.png" alt="Estudio Zafiro" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <img src="assets/images/iconos-estudios/zafiro.png" alt="Estudio Zafiro Webcam" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="studio-icon-placeholder" style="display:none;">💠</div>
                     </div>
-                    <h3 class="studio-name">Zafiro</h3>
+                    <h3 class="studio-name"><a href="https://zafirowebcam.com.co" target="_blank" class="studio-link">Zafiro Webcam</a></h3>
                     <p class="studio-description">Espacio moderno y acogedor con todas las herramientas que necesitas para destacar.</p>
                     <ul class="studio-features">
                         <li>✓ Tecnología avanzada</li>
@@ -48,10 +48,10 @@
                 <!-- Estudio Diamante -->
                 <div class="studio-card">
                     <div class="studio-icon">
-                        <img src="assets/images/iconos-estudios/diamante.png" alt="Estudio Diamante" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <img src="assets/images/iconos-estudios/diamante.png" alt="Estudio Diamante Webcam" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="studio-icon-placeholder" style="display:none;">💍</div>
                     </div>
-                    <h3 class="studio-name">Diamante</h3>
+                    <h3 class="studio-name"><a href="https://diamantewebcam.com.co" target="_blank" class="studio-link">Diamante Webcam</a></h3>
                     <p class="studio-description">La excelencia hecha estudio. Para modelos que buscan la perfección en cada transmisión.</p>
                     <ul class="studio-features">
                         <li>✓ Instalaciones de lujo</li>
@@ -79,7 +79,7 @@
                     <h2 class="valora-title">¿Eres modelo independiente?</h2>
                     <p class="valora-description">
                         Descubre también <a href="https://valora.vip" target="_blank" class="valora-link">Valora.vip</a>, 
-                        nuestra herramienta líder para gestión profesional desde casa.
+                        nuestra herramienta líder para gestión profesional webcam.
                     </p>
                     <p class="valora-features">Controla tus finanzas, organiza tu tiempo y maximiza tus ingresos con la plataforma diseñada especialmente para ti.</p>
                 </div>
