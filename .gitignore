@@ -15,6 +15,7 @@ Thumbs.db
 # Archivos de configuración local
 .env
 config.local.php
+config/database.local.php
 
 # Archivos de respaldo
 *.bak
