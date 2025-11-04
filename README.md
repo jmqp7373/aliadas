@@ -1,12 +1,37 @@
-# Aliadas Webcam - Sitio Web
+# 🎥 Aliadas Webcam - Sitio Web Oficial
 
-Este es el sitio web oficial de Aliadas Webcam.
+Sitio web oficial de Aliadas Webcam con despliegue automático.
 
-## Despliegue
+## 🚀 Despliegue Automático
 
-El sitio se despliega automáticamente a GoDaddy usando GitHub Actions cuando se hace push a la rama main.
+El sitio se despliega automáticamente a GoDaddy usando GitHub Actions:
+- ✅ Push a `main` → Despliegue automático
+- ✅ FTP seguro a servidor de producción
+- ✅ Actualización instantánea del sitio web
 
-## Estructura
+## 📁 Estructura del Proyecto
 
-- `index.php` - Página principal
-- `.github/workflows/deploy.yml` - Configuración de despliegue automático
+```
+├── index.php                    # Página principal del sitio
+├── .github/workflows/deploy.yml # Configuración GitHub Actions
+├── .gitignore                   # Archivos a ignorar
+└── README.md                   # Documentación del proyecto
+```
+
+## 🛠️ Tecnologías
+
+- **Frontend**: HTML5, CSS3, PHP
+- **Despliegue**: GitHub Actions + FTP
+- **Hosting**: GoDaddy
+
+## 📋 Comandos Útiles
+
+```bash
+# Desplegar cambios
+git add .
+git commit -m "Descripción del cambio"
+git push origin main
+```
+
+---
+**© 2025 Aliadas Webcam - Todos los derechos reservados**
