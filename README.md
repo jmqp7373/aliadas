@@ -15,9 +15,8 @@ El sitio se despliega automáticamente a GoDaddy usando GitHub Actions:
 ├── config/
 │   └── config.php              # Configuración de base de datos
 ├── .github/workflows/
-│   └── deploy.yml              # Configuración GitHub Actions
+│   └── deploy.yml              # Configuración GitHub Actions  
 ├── index.php                   # Página principal del sitio
-├── db-test.php                 # Prueba de conexión DB (temporal)
 ├── .gitignore                  # Archivos a ignorar
 └── README.md                   # Documentación del proyecto
 ```
@@ -39,13 +38,13 @@ La configuración de base de datos se encuentra en `config/config.php`:
 - **Charset**: UTF-8 (utf8mb4)
 - **Conexión**: PDO con prepared statements
 
-### Configurar Base de Datos:
+### Estado de la Base de Datos:
 
-1. Accede al cPanel de GoDaddy
-2. Ve a "MySQL Databases"
-3. Crea la base de datos: `aliadaswebcam_db`
-4. Crea un usuario y asígnalo a la DB
-5. Actualiza las credenciales en `config/config.php`
+✅ **Base de datos configurada y funcionando**
+- Servidor: MariaDB 10.6.23
+- Conexión: PDO establecida correctamente
+- Configuración: UTF-8 (utf8mb4)
+- Estado: Operativa y lista para desarrollo
 
 ## 📋 Comandos Útiles
 

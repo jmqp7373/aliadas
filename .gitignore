@@ -24,6 +24,10 @@ config/database.local.php
 # Archivos de prueba
 test.*
 debug.*
+*-test.php
+db-test.*
+config-test.*
+INSTRUCCIONES_*.md
 
 # Node modules (si usamos Node.js en el futuro)
 node_modules/
