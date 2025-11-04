@@ -1,0 +1,362 @@
+/* ============================================
+   RESET Y CONFIGURACIÓN GENERAL
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+.header {
+    background-color: #1B263B;
+    padding: 1rem 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    height: 60px;
+    width: auto;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 0.5rem 0;
+}
+
+.nav-link:hover {
+    color: #D4AF37;
+}
+
+/* ============================================
+   MAIN CONTENT
+   ============================================ */
+.main {
+    min-height: 100vh;
+}
+
+/* Sección Bienvenida */
+.welcome-section {
+    background: linear-gradient(135deg, #1B263B 0%, #0D1B2A 100%);
+    color: #ffffff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #D4AF37;
+}
+
+.welcome-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.welcome-text {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+/* Sección Estudios */
+.studios-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1B263B;
+    margin-bottom: 3rem;
+}
+
+.studios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.studio-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.studio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
+}
+
+.studio-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.5rem;
+}
+
+.studio-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.studio-icon-placeholder {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    background: linear-gradient(135deg, #1B263B, #D4AF37);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.studio-name {
+    font-size: 1.8rem;
+    color: #1B263B;
+    margin-bottom: 1rem;
+}
+
+.studio-description {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.studio-features {
+    list-style: none;
+    text-align: left;
+}
+
+.studio-features li {
+    padding: 0.5rem 0;
+    color: #222222;
+    font-size: 0.95rem;
+}
+
+/* Llamado a la acción */
+.cta-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #D4AF37;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.cta-button:hover {
+    background-color: #1B263B;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(27, 38, 59, 0.4);
+}
+
+/* Sección Valora */
+.valora-section {
+    background: linear-gradient(to right, #f0f0f0, #ffffff);
+    padding: 4rem 0;
+}
+
+.valora-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.valora-logo {
+    flex-shrink: 0;
+}
+
+.valora-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.valora-text {
+    flex: 1;
+}
+
+.valora-title {
+    font-size: 2rem;
+    color: #1B263B;
+    margin-bottom: 1rem;
+}
+
+.valora-description {
+    font-size: 1.2rem;
+    color: #222222;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.valora-link {
+    color: #D4AF37;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.valora-link:hover {
+    color: #1B263B;
+    text-decoration: underline;
+}
+
+.valora-features {
+    font-size: 1rem;
+    color: #555555;
+    line-height: 1.7;
+}
+
+/* Sección Contacto */
+.contact-section {
+    padding: 4rem 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contact-text {
+    font-size: 1.1rem;
+    color: #555555;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    font-size: 1.1rem;
+    color: #222222;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer {
+    background-color: #1B263B;
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-legal {
+    font-size: 0.95rem;
+}
+
+.footer-legal strong {
+    color: #D4AF37;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.social-link:hover {
+    color: #D4AF37;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .welcome-title {
+        font-size: 2rem;
+    }
+
+    .welcome-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .studios-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .valora-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
