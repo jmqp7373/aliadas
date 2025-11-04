@@ -21,13 +21,14 @@
                         <img src="assets/images/iconos-estudios/esmeralda.png" alt="Estudio Esmeralda Webcam" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="studio-icon-placeholder" style="display:none;">💎</div>
                     </div>
-                    <h3 class="studio-name"><a href="https://esmeraldawebcam.com.co" target="_blank" class="studio-link">Esmeralda Webcam</a></h3>
+                    <h3 class="studio-name">Esmeralda Webcam</h3>
                     <p class="studio-description">Equipamiento premium con tecnología de última generación y espacios diseñados para tu comodidad.</p>
                     <ul class="studio-features">
                         <li>✓ Equipos de alta gama</li>
                         <li>✓ Iluminación profesional</li>
                         <li>✓ Ambientes exclusivos</li>
                     </ul>
+                    <a href="https://esmeraldawebcam.com.co" target="_blank" class="studio-website-link">🌐 esmeraldawebcam.com.co</a>
                 </div>
 
                 <!-- Estudio Zafiro -->
@@ -36,13 +37,14 @@
                         <img src="assets/images/iconos-estudios/zafiro.png" alt="Estudio Zafiro Webcam" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="studio-icon-placeholder" style="display:none;">💠</div>
                     </div>
-                    <h3 class="studio-name"><a href="https://zafirowebcam.com.co" target="_blank" class="studio-link">Zafiro Webcam</a></h3>
+                    <h3 class="studio-name">Zafiro Webcam</h3>
                     <p class="studio-description">Espacio moderno y acogedor con todas las herramientas que necesitas para destacar.</p>
                     <ul class="studio-features">
                         <li>✓ Tecnología avanzada</li>
                         <li>✓ Conexión de alta velocidad</li>
                         <li>✓ Soporte técnico 24/7</li>
                     </ul>
+                    <a href="https://zafirowebcam.com.co" target="_blank" class="studio-website-link">🌐 zafirowebcam.com.co</a>
                 </div>
 
                 <!-- Estudio Diamante -->
@@ -51,13 +53,14 @@
                         <img src="assets/images/iconos-estudios/diamante.png" alt="Estudio Diamante Webcam" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="studio-icon-placeholder" style="display:none;">💍</div>
                     </div>
-                    <h3 class="studio-name"><a href="https://diamantewebcam.com.co" target="_blank" class="studio-link">Diamante Webcam</a></h3>
+                    <h3 class="studio-name">Diamante Webcam</h3>
                     <p class="studio-description">La excelencia hecha estudio. Para modelos que buscan la perfección en cada transmisión.</p>
                     <ul class="studio-features">
                         <li>✓ Instalaciones de lujo</li>
                         <li>✓ Equipamiento top</li>
                         <li>✓ Ambientes únicos</li>
                     </ul>
+                    <a href="https://diamantewebcam.com.co" target="_blank" class="studio-website-link">🌐 diamantewebcam.com.co</a>
                 </div>
             </div>
 
